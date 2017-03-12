@@ -72,8 +72,9 @@ body {
 	<div align="center">
 		  <script src="js/jquery.js"></script>
 		  <script src="js/bootstrap.min.js"></script>
-		  </body>
+		 
     </div>
+ </body>
 </html>
 				
 				
