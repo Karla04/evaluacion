@@ -10,7 +10,7 @@
 	$precio_venta=$_POST['precio_venta'];
 	
 	
-	$query="UPDATE productos SET producto='$producto', descripcion='$descripcion', existencias='$existencias', precio_compra='$precio_compra', precio_venta='$precio_venta' WHERE id_producto='$id_producto'";
+	$query="UPDATE productos SET producto='$producto', descripcion='$descripcion', existencias='$existencias', precio_compra='$precio_compra', precio_venta='$precio_venta' WHERE id_producto=".'$id_producto'.";";
 	
 	$resultado=$mysqli->query($query);
 	
