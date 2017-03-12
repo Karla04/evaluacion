@@ -2,7 +2,7 @@
 	
 	require('conexion.php');
 	
-	$id_producto=$_POST['id_producto'];
+	$id_producto=$_POST['id'];
 	$producto=$_POST['producto'];
 	$descripcion=$_POST['descripcion'];
 	$existencias=$_POST['existencias'];
